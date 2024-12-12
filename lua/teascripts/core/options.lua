@@ -51,3 +51,7 @@ opt.foldlevel = 99 -- Start unfolded
 opt.foldlevelstart = 1 -- Start unfolded when opening a file
 opt.foldminlines = 5
 -- opt.foldexpr = "nvim_treesitter#foldexpr()"
+
+-- Spell checking
+opt.spell = true
+opt.spelllang = { "en" }
